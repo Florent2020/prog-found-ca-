@@ -7,8 +7,8 @@ for (var i = 15; i <= 25; i++) {
 
     if (i % 2 === 0) {
         console.log(i);
-    }
-}
+    };
+};
 
 
 
@@ -29,7 +29,7 @@ function firstFunction(iAmFunction) {
 
     console.log(iAmFunction);
 
-}
+};
 
 
 var iAmFunction = "I ma a funcrtion";
@@ -39,7 +39,7 @@ var innerFunction = firstFunction(iAmFunction);
 
 function outerFunction(oneArgument) {
     oneArgument();
-}
+};
 
 
 outerFunction(innerFunction);
