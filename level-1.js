@@ -10,7 +10,7 @@ var school = "Noroff";
 var person = {
     name: "Florent", // name is the key, "Florent" is the value, a string value
     married: true, // married ia the key, true is the value, a boolean value 
-}
+};
 
 
 
@@ -25,7 +25,7 @@ if (outOfStock === true) {
     console.log("outOfStock");
 } else {
     console.log("In stock");
-}
+};
 
 
 
@@ -39,7 +39,7 @@ var myNumbers = [7, 9, 19, 84, 1984];
 
 for (var i = 0; i < myNumbers.length; i++) {
     console.log(myNumbers[i]);
-}
+};
 
 
 
@@ -49,7 +49,7 @@ for (var i = 0; i < myNumbers.length; i++) {
 
 for (var i = 15; i <= 25; i++) {
     console.log(i);
-}
+};
 
 
 
@@ -99,7 +99,7 @@ for (var i = 0; i < animals.length; i++) {
 
 function whatIDontLike(virus) {
     console.log("I don't like " + virus);
-}
+};
 
 whatIDontLike("CoronaVirus");
 
